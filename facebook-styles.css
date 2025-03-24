@@ -103,3 +103,23 @@ body {
 .facebook-login-box button:hover {
     background-color: #36a420; /* Darker green on hover */
 }
+
+@media (max-width: 600px) {
+    .facebook-login-box {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 15px; /* Reduce padding */
+    }
+
+    .facebook-login-box h1 {
+        font-size: 24px; /* Adjust font size */
+    }
+
+    .facebook-login-box form input {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .facebook-login-box form button {
+        padding: 10px; /* Reduce button padding */
+        font-size: 14px; /* Adjust font size */
+    }
+}

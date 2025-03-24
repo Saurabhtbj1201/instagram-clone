@@ -101,3 +101,24 @@ form input:focus {
 .divider::after {
     right: 0;
 }
+
+@media (max-width: 600px) {
+    .login-box {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 10px; /* Reduce padding */
+    }
+
+    form input {
+        padding: 10px; /* Reduce padding */
+    }
+
+    form button {
+        padding: 8px; /* Reduce button padding */
+        font-size: 12px; /* Adjust font size */
+    }
+
+    .facebook-login {
+        padding: 8px; /* Reduce button padding */
+        font-size: 12px; /* Adjust font size */
+    }
+}

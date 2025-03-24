@@ -240,3 +240,34 @@ footer {
 .toggle-password:hover {
     color: #262626;
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding-top: 20px; /* Reduce top padding */
+    }
+
+    h1 {
+        font-size: 36px; /* Adjust font size */
+    }
+
+    form input {
+        padding: 10px; /* Reduce padding */
+    }
+
+    form button, .btn {
+        padding: 8px; /* Reduce button padding */
+        font-size: 12px; /* Adjust font size */
+    }
+
+    .app-logo {
+        width: 100px; /* Adjust logo size */
+    }
+
+    footer {
+        font-size: 10px; /* Adjust footer font size */
+    }
+
+    .footer-links {
+        gap: 10px; /* Reduce gap between links */
+    }
+}
