@@ -1,0 +1,66 @@
+.signup-box {
+    background: #fff;
+    padding: 5px 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    width: 350px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+form input, 
+form .password-container {
+    margin: 5px 0; /* Apply consistent gap between inputs */
+}
+
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background-color: #fafafa;
+    font-size: 14px;
+    color: #262626;
+    box-sizing: border-box;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #a8a8a8;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+    margin: 5px 0;
+}
+
+
+.password-container input {
+    width: 100%;
+    padding: 12px 40px 12px 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background-color: #fafafa;
+    font-size: 14px;
+    color: #262626;
+    box-sizing: border-box;
+}
+
+.password-container input:focus {
+    outline: none;
+    border-color: #a8a8a8;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.toggle-password:hover {
+    color: #262626;
+}

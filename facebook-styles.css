@@ -1,0 +1,105 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.facebook-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.facebook-login-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    text-align: center;
+}
+
+.facebook-login-box h1 {
+    color: #1877f2;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.facebook-login-box form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 10px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    background-color: #f5f6f7; /* Add a subtle background color */
+}
+
+.facebook-login-box form input:focus {
+    outline: none;
+    border-color: #1877f2; /* Highlight border on focus */
+    background-color: #fff; /* Change background on focus */
+}
+
+.facebook-login-box form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.facebook-login-box form button:hover {
+    background-color: #145dbf;
+}
+
+.facebook-login-box p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #606770;
+}
+
+.facebook-login-box a {
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.facebook-login-box a:hover {
+    text-decoration: underline;
+}
+
+.facebook-login-box p a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.facebook-login-box p a:hover {
+    text-decoration: underline;
+}
+
+.facebook-login-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #42b72a; /* Green background for "Create New Account" */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.facebook-login-box button:hover {
+    background-color: #36a420; /* Darker green on hover */
+}

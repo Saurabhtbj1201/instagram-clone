@@ -1,0 +1,242 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Ensure body is a column layout */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #fff; /* Set background to white */
+}
+
+.container {
+    flex: 1; /* Push footer to the bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; /* Stack content vertically */
+    padding-top: 50px; /* Increase gap from the top */
+}
+
+h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #262626;
+}
+
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 1px 0; 
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background-color: #fafafa;
+    font-size: 14px;
+    color: #262626;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+form.signup-box input {
+    margin: 1px 0; /* Apply consistent margin to all inputs */
+}
+
+form.signup-box input, 
+form.signup-box .password-container input {
+    margin: 1px 0; /* Apply consistent margin to all inputs */
+}
+
+form input:focus {
+    outline: none;
+    border-color: #a8a8a8;
+}
+
+form button, .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form button:hover, .btn:hover {
+    background-color: #007ac1;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    margin: 20px 0;
+    text-align: center;
+    color: #8e8e8e;
+    font-size: 14px;
+    position: relative;
+}
+
+.divider::before, .divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.facebook-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.facebook-login:hover {
+    background-color: #145dbf;
+}
+
+.download-app {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Ensure content stacks vertically */
+    align-items: center; /* Center align the content */
+}
+
+.download-app p {
+    font-size: 14px;
+    color: #8e8e8e;
+    margin-bottom: 10px;
+}
+
+.app-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px; /* Add spacing between text and logos */
+}
+
+.app-logo {
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-top: auto; /* Ensure footer stays at the bottom */
+    padding: 10px 0;
+    background-color: #fff;
+    border-top: 1px solid #dbdbdb;
+    margin-top: 20px; /* Add spacing from the previous section */
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: #8e8e8e;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-language {
+    margin-bottom: 5px;
+}
+
+.footer-copyright {
+    font-weight: bold;
+}
+
+.footer-info {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #8e8e8e;
+    font-weight: normal;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+    margin: 10px 0; /* Match spacing with other inputs */
+}
+
+.password-container input {
+    width: 100%;
+    padding: 12px 40px 12px 10px; /* Add space for the icon on the right */
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background-color: #fafafa;
+    font-size: 14px;
+    color: #262626;
+    box-sizing: border-box;
+}
+
+.password-container input:focus {
+    outline: none;
+    border-color: #a8a8a8;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.toggle-password:hover {
+    color: #262626;
+}
