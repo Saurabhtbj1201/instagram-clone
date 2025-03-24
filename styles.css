@@ -243,11 +243,11 @@ footer {
 
 @media (max-width: 600px) {
     .container {
-        padding-top: 20px; /* Reduce top padding */
+        padding-top: 15px; /* Reduce top padding */
     }
 
     h1 {
-        font-size: 36px; /* Adjust font size */
+        font-size: 40px; /* Adjust font size */
     }
 
     form input {
@@ -264,7 +264,7 @@ footer {
     }
 
     footer {
-        font-size: 10px; /* Adjust footer font size */
+        font-size: 11px; /* Adjust footer font size */
     }
 
     .footer-links {

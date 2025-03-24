@@ -104,8 +104,7 @@ form input:focus {
 
 @media (max-width: 600px) {
     .login-box {
-        width: 90%; /* Adjust width for smaller screens */
-        padding: 10px; /* Reduce padding */
+        width: 125%; /* Adjust width for smaller screens */
     }
 
     form input {

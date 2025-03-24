@@ -67,8 +67,7 @@ form input:focus {
 
 @media (max-width: 600px) {
     .signup-box {
-        width: 90%; /* Adjust width for smaller screens */
-        padding: 10px; /* Reduce padding */
+        width: 80%; /* Adjust width for smaller screens */
     }
 
     form input {
