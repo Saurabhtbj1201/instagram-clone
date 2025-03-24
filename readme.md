@@ -35,13 +35,13 @@ This project is a simple clone of the Instagram login, signup, and Facebook logi
 ## Screenshots
 
 ### Login Page
-![Login Page](screenshots/login-page.png)
+![Login Page](login.png)
 
 ### Signup Page
-![Signup Page](screenshots/signup-page.png)
+![Signup Page](signup.png)
 
 ### Facebook Login Page
-![Facebook Login Page](screenshots/facebook-login-page.png)
+![Facebook Login Page](fb.png)
 
 ## Technologies Used
 
