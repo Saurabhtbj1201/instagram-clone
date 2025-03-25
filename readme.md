@@ -17,8 +17,8 @@ This project is a simple clone of the Instagram login, signup, and Facebook logi
 - `signup.html`: The signup page for creating a new account.
 - `facebook-login.html`: A page styled for Facebook login.
 - `styles.css`: Shared styles for the project.
-- `styles-login.css`: Specific styles for the login page.
-- `styles-signup.css`: Specific styles for the signup page.
+- `login.css`: Specific styles for the login page.
+- `signup.css`: Specific styles for the signup page.
 - `facebook-styles.css`: Specific styles for the Facebook login page.
 
 ## How to Use
@@ -58,3 +58,4 @@ This project is a simple clone of the Instagram login, signup, and Facebook logi
 ## License
 
 This project is for educational purposes only and is not affiliated with Instagram or Facebook.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/df315dba-f8d8-48c9-8ec5-b12b46f3d214/deploy-status)](https://app.netlify.com/sites/insta-com-in/deploys)
