@@ -7,7 +7,7 @@ body {
     align-items: center;
     flex-direction: column; /* Ensure body is a column layout */
     min-height: 100vh; /* Full viewport height */
-    background-color: #fff; /* Set background to white */
+    background-color: #000; /* Set background to white */
 }
 
 .container {
